@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="menu" spacing="5.0"
+      xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.aiwannafly.gui_torrent.controller.MainMenuController"
+prefWidth="160.0" prefHeight="1080.0">
+<!--    <padding>-->
+<!--        <Insets bottom="20.0" left="16.0" right="20.0" top="20.0" />-->
+<!--    </padding>-->
+    <Button fx:id="downloadButton" onAction="#onDownloadButtonClick" prefHeight="20.0" prefWidth="120.0" text="download">
+        <VBox.margin>
+            <Insets left="20.0" top="10.0" />
+        </VBox.margin>
+        <font>
+            <Font size="16.0" />
+        </font></Button>
+    <Button fx:id="distributeButton" onAction="#onDistributeButtonClick" prefHeight="20.0" prefWidth="120.0" text="distribute">
+        <VBox.margin>
+            <Insets left="20.0" />
+        </VBox.margin>
+        <font>
+            <Font size="16.0" />
+        </font>
+    </Button>
+
+    <Button fx:id="createButton" onAction="#onCreateButtonClick" prefHeight="20.0" prefWidth="120.0" text="create">
+        <VBox.margin>
+            <Insets left="20.0"  />
+        </VBox.margin>
+        <font>
+            <Font size="16.0" />
+        </font>
+    </Button>
+
+    <Button onAction="#onExitButtonClick" prefHeight="20.0" prefWidth="120.0" text="exit">
+        <VBox.margin>
+            <Insets left="20.0" />
+        </VBox.margin>
+        <font>
+            <Font size="16.0" />
+        </font></Button>
+</VBox>
