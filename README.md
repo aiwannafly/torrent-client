@@ -1,4 +1,7 @@
 # Torrent Client
+
+Commit history: https://github.com/aiwannafly/university/tree/master/java/GUI_torrent
+
 A torrent-client made with use of `BitTorrent` peer-to-peer network protocol and implemented in Java.
 It also has a graphical interface separated from a business login (MVC), powered by the `JavaFX` framework.
 
